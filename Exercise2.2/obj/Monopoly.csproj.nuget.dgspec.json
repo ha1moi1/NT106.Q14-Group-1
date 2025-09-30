@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Studying\\Học Kỳ 3\\NT106 - Lập trình Mạng\\Bài Tập Trên Lớp\\Exercise2.2\\Monopoly.csproj": {}
+    "D:\\Studying\\Học Kỳ 3\\NT106 - Lập trình Mạng\\Bài Tập Trên Lớp\\NT106.Q14-Group-1\\Exercise2.2\\Monopoly.csproj": {}
   },
   "projects": {
-    "D:\\Studying\\Học Kỳ 3\\NT106 - Lập trình Mạng\\Bài Tập Trên Lớp\\Exercise2.2\\Monopoly.csproj": {
+    "D:\\Studying\\Học Kỳ 3\\NT106 - Lập trình Mạng\\Bài Tập Trên Lớp\\NT106.Q14-Group-1\\Exercise2.2\\Monopoly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Studying\\Học Kỳ 3\\NT106 - Lập trình Mạng\\Bài Tập Trên Lớp\\Exercise2.2\\Monopoly.csproj",
+        "projectUniqueName": "D:\\Studying\\Học Kỳ 3\\NT106 - Lập trình Mạng\\Bài Tập Trên Lớp\\NT106.Q14-Group-1\\Exercise2.2\\Monopoly.csproj",
         "projectName": "Monopoly",
-        "projectPath": "D:\\Studying\\Học Kỳ 3\\NT106 - Lập trình Mạng\\Bài Tập Trên Lớp\\Exercise2.2\\Monopoly.csproj",
+        "projectPath": "D:\\Studying\\Học Kỳ 3\\NT106 - Lập trình Mạng\\Bài Tập Trên Lớp\\NT106.Q14-Group-1\\Exercise2.2\\Monopoly.csproj",
         "packagesPath": "C:\\Users\\Arer\\.nuget\\packages\\",
-        "outputPath": "D:\\Studying\\Học Kỳ 3\\NT106 - Lập trình Mạng\\Bài Tập Trên Lớp\\Exercise2.2\\obj\\",
+        "outputPath": "D:\\Studying\\Học Kỳ 3\\NT106 - Lập trình Mạng\\Bài Tập Trên Lớp\\NT106.Q14-Group-1\\Exercise2.2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
