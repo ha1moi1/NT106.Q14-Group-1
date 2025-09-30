@@ -37,6 +37,8 @@ namespace Monopoly
             btnDangNhap = new Button();
             label4 = new Label();
             llblDangKi = new LinkLabel();
+            label2 = new Label();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -49,7 +51,6 @@ namespace Monopoly
             pictureBox1.Size = new Size(1262, 712);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
-            
             // 
             // textBox1
             // 
@@ -58,7 +59,7 @@ namespace Monopoly
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(452, 32);
             textBox1.TabIndex = 3;
-            textBox1.Text = "Tên người dùng";
+
             // 
             // label1
             // 
@@ -72,7 +73,6 @@ namespace Monopoly
             label1.TabIndex = 2;
             label1.Text = "ĐĂNG NHẬP";
             label1.TextAlign = ContentAlignment.TopCenter;
-
             // 
             // textBox2
             // 
@@ -81,8 +81,6 @@ namespace Monopoly
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(452, 32);
             textBox2.TabIndex = 6;
-            textBox2.Text = "Mật khẩu";
-
             // 
             // btnDangNhap
             // 
@@ -119,11 +117,33 @@ namespace Monopoly
             llblDangKi.Text = "Đăng ký";
             llblDangKi.LinkClicked += linkLabel1_LinkClicked;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label2.Location = new Point(385, 222);
+            label2.Name = "label2";
+            label2.Size = new Size(137, 23);
+            label2.TabIndex = 12;
+            label2.Text = "Tên người dùng";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label3.Location = new Point(385, 312);
+            label3.Name = "label3";
+            label3.Size = new Size(86, 23);
+            label3.TabIndex = 13;
+            label3.Text = "Mật khẩu";
+            // 
             // SignIn
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1262, 712);
+            Controls.Add(label3);
+            Controls.Add(label2);
             Controls.Add(llblDangKi);
             Controls.Add(label4);
             Controls.Add(btnDangNhap);
@@ -151,5 +171,7 @@ namespace Monopoly
         private Button btnDangNhap;
         private Label label4;
         private LinkLabel llblDangKi;
+        private Label label2;
+        private Label label3;
     }
 }
