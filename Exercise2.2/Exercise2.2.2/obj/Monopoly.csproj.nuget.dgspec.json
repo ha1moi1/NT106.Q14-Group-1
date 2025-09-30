@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\Monopoly.csproj": {}
+    "D:\\3_HK1-N2\\NT106\\Tuan3\\GiaoDien\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj": {}
   },
   "projects": {
-    "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\Monopoly.csproj": {
+    "D:\\3_HK1-N2\\NT106\\Tuan3\\GiaoDien\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\Monopoly.csproj",
+        "projectUniqueName": "D:\\3_HK1-N2\\NT106\\Tuan3\\GiaoDien\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
         "projectName": "Monopoly",
-        "projectPath": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\Monopoly.csproj",
+        "projectPath": "D:\\3_HK1-N2\\NT106\\Tuan3\\GiaoDien\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\obj\\",
+        "outputPath": "D:\\3_HK1-N2\\NT106\\Tuan3\\GiaoDien\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\New folder (2)\\SharedTool\\NuGetPackages"

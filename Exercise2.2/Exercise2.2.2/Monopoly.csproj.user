@@ -4,9 +4,6 @@
     <Compile Update="AfterSignUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Quenmk.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="SignIn.cs">
       <SubType>Form</SubType>
     </Compile>
