@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\khokhan\\exercise2.2\\exercise2.2\\aftersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:aftersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\khokhan\\exercise2.2\\exercise2.2\\quenmk.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:quenmk.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\khokhan\\exercise2.2\\exercise2.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\khokhan\\exercise2.2\\exercise2.2\\aftersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:aftersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\khokhan\\exercise2.2\\exercise2.2\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AfterSignUp.cs",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\AfterSignUp.cs",
+              "RelativeDocumentMoniker": "AfterSignUp.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\AfterSignUp.cs",
+              "RelativeToolTip": "AfterSignUp.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADgvxoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:47:06.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AfterSignUp.cs [Design]",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\AfterSignUp.cs",
+              "RelativeDocumentMoniker": "AfterSignUp.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\AfterSignUp.cs [Design]",
+              "RelativeToolTip": "AfterSignUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:46:04.497Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Quenmk.cs",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\Quenmk.cs",
+              "RelativeDocumentMoniker": "Quenmk.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\Quenmk.cs",
+              "RelativeToolTip": "Quenmk.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:42:23.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quenmk.Designer.cs",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\Quenmk.Designer.cs",
+              "RelativeDocumentMoniker": "Quenmk.Designer.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\Quenmk.Designer.cs",
+              "RelativeToolTip": "Quenmk.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:40:55.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\KhoKhan\\Exercise2.2\\Exercise2.2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:40:30.418Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\NT106.Q14-Group-1\\Exercise2.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|c:\\users\\user\\nt106.q14-group-1\\exercise2.2\\aftersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:aftersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|c:\\users\\user\\nt106.q14-group-1\\exercise2.2\\quenmk.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:quenmk.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|c:\\users\\user\\nt106.q14-group-1\\exercise2.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|c:\\users\\user\\nt106.q14-group-1\\exercise2.2\\aftersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:aftersignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|c:\\users\\user\\nt106.q14-group-1\\exercise2.2\\quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:quenmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AfterSignUp.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NT106.Q14-Group-1\\Exercise2.2\\AfterSignUp.cs",
+              "RelativeDocumentMoniker": "AfterSignUp.cs",
+              "ToolTip": "C:\\Users\\User\\NT106.Q14-Group-1\\Exercise2.2\\AfterSignUp.cs",
+              "RelativeToolTip": "AfterSignUp.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADgvxoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:47:06.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AfterSignUp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\NT106.Q14-Group-1\\Exercise2.2\\AfterSignUp.cs",
+              "RelativeDocumentMoniker": "AfterSignUp.cs",
+              "ToolTip": "C:\\Users\\User\\NT106.Q14-Group-1\\Exercise2.2\\AfterSignUp.cs [Design]",
+              "RelativeToolTip": "AfterSignUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:46:04.497Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Quenmk.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NT106.Q14-Group-1\\Exercise2.2\\Quenmk.cs",
+              "RelativeDocumentMoniker": "Quenmk.cs",
+              "ToolTip": "C:\\Users\\User\\NT106.Q14-Group-1\\Exercise2.2\\Quenmk.cs",
+              "RelativeToolTip": "Quenmk.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:42:23.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quenmk.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NT106.Q14-Group-1\\Exercise2.2\\Quenmk.Designer.cs",
+              "RelativeDocumentMoniker": "Quenmk.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\NT106.Q14-Group-1\\Exercise2.2\\Quenmk.Designer.cs",
+              "RelativeToolTip": "Quenmk.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:40:55.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NT106.Q14-Group-1\\Exercise2.2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\NT106.Q14-Group-1\\Exercise2.2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T13:40:30.418Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

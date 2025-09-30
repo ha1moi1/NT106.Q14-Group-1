@@ -1,9 +1,0 @@
-D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\obj\Debug\net8.0-windows\Monopoly.Properties.Resources.resources
-D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\obj\Debug\net8.0-windows\Monopoly.SignIn.resources
-D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\obj\Debug\net8.0-windows\Monopoly.Form1.resources
-D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\obj\Debug\net8.0-windows\Monopoly.csproj.GenerateResource.cache
-D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\obj\Debug\net8.0-windows\Monopoly.GeneratedMSBuildEditorConfig.editorconfig
-D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\obj\Debug\net8.0-windows\Monopoly.AssemblyInfoInputs.cache
-D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\obj\Debug\net8.0-windows\Monopoly.AssemblyInfo.cs
-D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\obj\Debug\net8.0-windows\Monopoly.csproj.CoreCompileInputs.cache
-D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\obj\Debug\net8.0-windows\Monopoly.sourcelink.json
