@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {},
-    "D:\\New folder (2)\\SharedTool\\NuGetPackages": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\3_HK1-N2\\NT106\\Tuan3\\GiaoDien\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
+      "projectUniqueName": "D:\\Education\\Project\\For_C_sharp\\NetworkProgramming\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
       "projectName": "Monopoly",
-      "projectPath": "D:\\3_HK1-N2\\NT106\\Tuan3\\GiaoDien\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\3_HK1-N2\\NT106\\Tuan3\\GiaoDien\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\obj\\",
+      "projectPath": "D:\\Education\\Project\\For_C_sharp\\NetworkProgramming\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "D:\\Education\\Project\\For_C_sharp\\NetworkProgramming\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\New folder (2)\\SharedTool\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
