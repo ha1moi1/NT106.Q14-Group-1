@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,8 +32,10 @@ namespace Monopoly
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Form1 signUp = new Form1();
-            signUp.Show();  
+            signUp.Show();
             this.Hide();
         }
+
+       
     }
 }

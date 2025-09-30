@@ -38,6 +38,10 @@
             btnDangKi = new Button();
             label2 = new Label();
             llblDangNhap = new LinkLabel();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -70,7 +74,6 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(452, 32);
             textBox1.TabIndex = 2;
-            textBox1.Text = "Tên người dùng";
             // 
             // textBox2
             // 
@@ -79,7 +82,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(452, 32);
             textBox2.TabIndex = 3;
-            textBox2.Text = "Email";
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox3
             // 
@@ -88,7 +91,7 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(452, 32);
             textBox3.TabIndex = 4;
-            textBox3.Text = "Mật khẩu";
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // textBox4
             // 
@@ -97,7 +100,6 @@
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(452, 32);
             textBox4.TabIndex = 5;
-            textBox4.Text = "Nhập lại mật khẩu";
             // 
             // btnDangKi
             // 
@@ -133,11 +135,55 @@
             llblDangNhap.Text = "Đăng nhập";
             llblDangNhap.LinkClicked += llblDangNhap_LinkClicked;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label3.Location = new Point(386, 174);
+            label3.Name = "label3";
+            label3.Size = new Size(137, 23);
+            label3.TabIndex = 9;
+            label3.Text = "Tên người dùng";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label4.Location = new Point(386, 248);
+            label4.Name = "label4";
+            label4.Size = new Size(54, 23);
+            label4.TabIndex = 10;
+            label4.Text = "Email";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label5.Location = new Point(386, 326);
+            label5.Name = "label5";
+            label5.Size = new Size(86, 23);
+            label5.TabIndex = 11;
+            label5.Text = "Mật khẩu";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
+            label6.Location = new Point(386, 409);
+            label6.Name = "label6";
+            label6.Size = new Size(155, 23);
+            label6.TabIndex = 12;
+            label6.Text = "nhập lại mật khẩu";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1262, 712);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
             Controls.Add(llblDangNhap);
             Controls.Add(label2);
             Controls.Add(btnDangKi);
@@ -165,5 +211,9 @@
         private Button btnDangKi;
         private Label label2;
         private LinkLabel llblDangNhap;
+        private Label label3;
+        private Label label4;
+        private Label label5;
+        private Label label6;
     }
 }
