@@ -59,12 +59,11 @@ namespace Monopoly
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(452, 32);
             textBox1.TabIndex = 3;
-
             // 
             // label1
             // 
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Microsoft Sans Serif", 15.7090893F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Segoe UI Semibold", 15.7090893F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(346, 145);
             label1.Margin = new Padding(3);
             label1.Name = "label1";
@@ -73,6 +72,7 @@ namespace Monopoly
             label1.TabIndex = 2;
             label1.Text = "ĐĂNG NHẬP";
             label1.TextAlign = ContentAlignment.TopCenter;
+            label1.Click += label1_Click;
             // 
             // textBox2
             // 
