@@ -93,7 +93,7 @@ namespace Monopoly
                 textBox1.Focus();
                 return;
             }
-     
+
 
             // 8. LƯU TÀI KHOẢN VÀO DATABASE
             bool success = modify.RegisterAccount(username, email, password);
@@ -132,6 +132,14 @@ namespace Monopoly
             this.Hide();
         }
 
-        
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

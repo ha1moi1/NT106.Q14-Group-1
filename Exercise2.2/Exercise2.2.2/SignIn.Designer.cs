@@ -48,27 +48,27 @@ namespace Monopoly
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1262, 712);
+            pictureBox1.Size = new Size(1262, 676);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
             // textBox1
             // 
             textBox1.Font = new Font("Microsoft Sans Serif", 13.090909F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(385, 245);
+            textBox1.Location = new Point(385, 233);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(452, 32);
+            textBox1.Size = new Size(452, 30);
             textBox1.TabIndex = 3;
             // 
             // label1
             // 
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Microsoft Sans Serif", 15.7090893F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(346, 145);
+            label1.Location = new Point(346, 138);
             label1.Margin = new Padding(3);
             label1.Name = "label1";
-            label1.Padding = new Padding(20, 21, 20, 21);
-            label1.Size = new Size(520, 396);
+            label1.Padding = new Padding(20, 20, 20, 20);
+            label1.Size = new Size(520, 376);
             label1.TabIndex = 2;
             label1.Text = "ĐĂNG NHẬP";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -76,17 +76,18 @@ namespace Monopoly
             // textBox2
             // 
             textBox2.Font = new Font("Microsoft Sans Serif", 13.090909F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(385, 335);
+            textBox2.Location = new Point(385, 318);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(452, 32);
+            textBox2.Size = new Size(452, 30);
             textBox2.TabIndex = 6;
+            textBox2.UseSystemPasswordChar = true;
             // 
             // btnDangNhap
             // 
             btnDangNhap.Font = new Font("Microsoft Sans Serif", 13.090909F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnDangNhap.Location = new Point(546, 416);
+            btnDangNhap.Location = new Point(546, 395);
             btnDangNhap.Name = "btnDangNhap";
-            btnDangNhap.Size = new Size(129, 42);
+            btnDangNhap.Size = new Size(129, 40);
             btnDangNhap.TabIndex = 8;
             btnDangNhap.Text = "Đăng nhập";
             btnDangNhap.UseVisualStyleBackColor = true;
@@ -97,9 +98,9 @@ namespace Monopoly
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Microsoft Sans Serif", 11.1272726F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(592, 479);
+            label4.Location = new Point(592, 455);
             label4.Name = "label4";
-            label4.Size = new Size(171, 24);
+            label4.Size = new Size(152, 20);
             label4.TabIndex = 10;
             label4.Text = "Chưa có tài khoản?";
             // 
@@ -107,9 +108,9 @@ namespace Monopoly
             // 
             llblDangKi.AutoSize = true;
             llblDangKi.Font = new Font("Microsoft Sans Serif", 11.1272726F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            llblDangKi.Location = new Point(757, 479);
+            llblDangKi.Location = new Point(757, 455);
             llblDangKi.Name = "llblDangKi";
-            llblDangKi.Size = new Size(78, 24);
+            llblDangKi.Size = new Size(69, 20);
             llblDangKi.TabIndex = 11;
             llblDangKi.TabStop = true;
             llblDangKi.Text = "Đăng ký";
@@ -119,9 +120,9 @@ namespace Monopoly
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            label2.Location = new Point(385, 222);
+            label2.Location = new Point(385, 211);
             label2.Name = "label2";
-            label2.Size = new Size(137, 23);
+            label2.Size = new Size(131, 21);
             label2.TabIndex = 12;
             label2.Text = "Tên người dùng";
             // 
@@ -129,17 +130,17 @@ namespace Monopoly
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
-            label3.Location = new Point(385, 312);
+            label3.Location = new Point(385, 296);
             label3.Name = "label3";
-            label3.Size = new Size(86, 23);
+            label3.Size = new Size(82, 21);
             label3.TabIndex = 13;
             label3.Text = "Mật khẩu";
             // 
             // SignIn
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1262, 712);
+            ClientSize = new Size(1262, 676);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(llblDangKi);

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3_HK1-N2\\NT106\\TEST\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj": {}
+    "D:\\Studying\\Hoc Ky 3\\NT106 - Network Programing\\In Class Excercise\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj": {}
   },
   "projects": {
-    "D:\\3_HK1-N2\\NT106\\TEST\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj": {
+    "D:\\Studying\\Hoc Ky 3\\NT106 - Network Programing\\In Class Excercise\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3_HK1-N2\\NT106\\TEST\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
+        "projectUniqueName": "D:\\Studying\\Hoc Ky 3\\NT106 - Network Programing\\In Class Excercise\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
         "projectName": "Monopoly",
-        "projectPath": "D:\\3_HK1-N2\\NT106\\TEST\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\3_HK1-N2\\NT106\\TEST\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\obj\\",
+        "projectPath": "D:\\Studying\\Hoc Ky 3\\NT106 - Network Programing\\In Class Excercise\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
+        "packagesPath": "C:\\Users\\Arer\\.nuget\\packages\\",
+        "outputPath": "D:\\Studying\\Hoc Ky 3\\NT106 - Network Programing\\In Class Excercise\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\New folder (2)\\SharedTool\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

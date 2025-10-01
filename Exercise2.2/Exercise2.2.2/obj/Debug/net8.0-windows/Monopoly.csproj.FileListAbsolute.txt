@@ -184,3 +184,139 @@ D:\3_HK1-N2\NT106\TEST\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net
 D:\3_HK1-N2\NT106\TEST\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.pdb
 D:\3_HK1-N2\NT106\TEST\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.genruntimeconfig.cache
 D:\3_HK1-N2\NT106\TEST\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\ref\Monopoly.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Monopoly.exe
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Monopoly.deps.json
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Monopoly.runtimeconfig.json
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Monopoly.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Monopoly.pdb
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.csproj.AssemblyReference.cache
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.AfterSignUp.resources
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.Properties.Resources.resources
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.SignIn.resources
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.Form1.resources
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.csproj.GenerateResource.cache
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.AssemblyInfoInputs.cache
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.AssemblyInfo.cs
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.csproj.CoreCompileInputs.cache
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.sourcelink.json
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.csproj.Up2Date
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\refint\Monopoly.dll
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.pdb
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.genruntimeconfig.cache
+D:\Studying\Học Kỳ 3\NT106 - Lập trình Mạng\Bài Tập Trên Lớp\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\ref\Monopoly.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Monopoly.exe
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Monopoly.deps.json
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Monopoly.runtimeconfig.json
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Monopoly.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Monopoly.pdb
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.csproj.AssemblyReference.cache
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.AfterSignUp.resources
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.Properties.Resources.resources
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.SignIn.resources
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.Form1.resources
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.csproj.GenerateResource.cache
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.AssemblyInfoInputs.cache
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.AssemblyInfo.cs
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.csproj.CoreCompileInputs.cache
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.sourcelink.json
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.csproj.Up2Date
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\refint\Monopoly.dll
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.pdb
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\Monopoly.genruntimeconfig.cache
+D:\Studying\Hoc Ky 3\NT106 - Network Programing\In Class Excercise\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\obj\Debug\net8.0-windows\ref\Monopoly.dll
