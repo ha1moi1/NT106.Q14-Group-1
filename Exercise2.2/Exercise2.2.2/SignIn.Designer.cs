@@ -59,7 +59,6 @@ namespace Monopoly
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(452, 32);
             textBox1.TabIndex = 3;
-
             // 
             // label1
             // 
@@ -91,7 +90,7 @@ namespace Monopoly
             btnDangNhap.TabIndex = 8;
             btnDangNhap.Text = "Đăng nhập";
             btnDangNhap.UseVisualStyleBackColor = true;
-            btnDangNhap.Click += button1_Click;
+
             // 
             // label4
             // 
