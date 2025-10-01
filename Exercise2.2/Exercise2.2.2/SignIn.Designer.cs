@@ -90,7 +90,7 @@ namespace Monopoly
             btnDangNhap.TabIndex = 8;
             btnDangNhap.Text = "Đăng nhập";
             btnDangNhap.UseVisualStyleBackColor = true;
-
+            btnDangNhap.Click += btnDangNhap_Click;
             // 
             // label4
             // 
@@ -102,7 +102,6 @@ namespace Monopoly
             label4.Size = new Size(171, 24);
             label4.TabIndex = 10;
             label4.Text = "Chưa có tài khoản?";
-            label4.Click += label4_Click;
             // 
             // llblDangKi
             // 
@@ -151,6 +150,7 @@ namespace Monopoly
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Name = "SignIn";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

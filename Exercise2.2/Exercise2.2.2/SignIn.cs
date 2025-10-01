@@ -20,12 +20,6 @@ namespace Monopoly
         }
 
 
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Form1 signUp = new Form1();
@@ -33,7 +27,7 @@ namespace Monopoly
             this.Hide();
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnDangNhap_Click(object sender, EventArgs e)
         {
             string username = textBox1.Text.Trim();
             string password = textBox2.Text.Trim();
@@ -63,7 +57,7 @@ namespace Monopoly
 
                 AfterSignUp mainForm = new AfterSignUp();
                 mainForm.Show();
-                this.Hide(); 
+                this.Hide();
             }
             else
             {
@@ -77,5 +71,7 @@ namespace Monopoly
                 textBox1.Focus();
             }
         }
+
+       
     }
 }

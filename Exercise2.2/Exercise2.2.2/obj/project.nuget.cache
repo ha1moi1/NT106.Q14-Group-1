@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EaFhZkGcLVo=",
+  "dgSpecHash": "C5eOmelFgPk=",
   "success": true,
-  "projectFilePath": "D:\\3_HK1-N2\\NT106\\Tuan3\\moiiiii\\NT106.Q14-Group-1-LightKer23\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
+  "projectFilePath": "D:\\3_HK1-N2\\NT106\\TEST\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Monopoly.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

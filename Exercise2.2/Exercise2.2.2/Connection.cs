@@ -10,7 +10,8 @@ namespace Monopoly
     internal class Connection
     {
 
-        private static string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\3_HK1-N2\NT106\Tuan3\moiiiii\NT106.Q14-Group-1-LightKer23\Exercise2.2\Exercise2.2.2\Database1.mdf;Integrated Security=True";
+        private static string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\3_HK1-N2\NT106\TEST\NT106.Q14-Group-1\Exercise2.2\Exercise2.2.2\Database1.mdf;Integrated Security=True";
+
 
         public static SqlConnection GetConnection()
         {

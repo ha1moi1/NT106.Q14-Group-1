@@ -40,18 +40,20 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.Location = new Point(0, 1);
+            pictureBox1.Margin = new Padding(2, 2, 2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1893, 1007);
+            pictureBox1.Size = new Size(1165, 629);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
             // label1
             // 
-            label1.Font = new Font("Be Vietnam Pro Black", 16.875F, FontStyle.Bold);
-            label1.Location = new Point(730, 199);
+            label1.Font = new Font("Microsoft Sans Serif", 16.875F, FontStyle.Bold);
+            label1.Location = new Point(449, 124);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(457, 574);
+            label1.Size = new Size(281, 359);
             label1.TabIndex = 1;
             label1.Text = "CỜ TỶ PHÚ";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -59,34 +61,38 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Be Vietnam Pro Black", 10.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(820, 371);
+            button1.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(505, 232);
+            button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
-            button1.Size = new Size(262, 90);
+            button1.Size = new Size(161, 56);
             button1.TabIndex = 2;
             button1.Text = "Cá nhân";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Font = new Font("Be Vietnam Pro Black", 10.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(820, 532);
+            button2.Font = new Font("Microsoft Sans Serif", 10.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Location = new Point(505, 332);
+            button2.Margin = new Padding(2, 2, 2, 2);
             button2.Name = "button2";
-            button2.Size = new Size(262, 90);
+            button2.Size = new Size(161, 56);
             button2.TabIndex = 3;
             button2.Text = "Đồng đội";
             button2.UseVisualStyleBackColor = true;
             // 
             // AfterSignUp
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1894, 1009);
+            ClientSize = new Size(1166, 631);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "AfterSignUp";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AfterSignUp";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

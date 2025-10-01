@@ -100,8 +100,7 @@ namespace Monopoly
 
             if (success)
             {
-                MessageBox.Show("🎉 Đăng ký thành công!\n\n" +
-                               "Bây giờ bạn có thể đăng nhập.",
+                MessageBox.Show("🎉 Đăng ký thành công!\n",
                                "Thành công",
                                MessageBoxButtons.OK,
                                MessageBoxIcon.Information);
