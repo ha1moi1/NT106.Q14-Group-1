@@ -25,9 +25,12 @@
 
 ### Hướng dẫn sử dụng
 1. Copy link HTTPS: https://github.com/ha1moi1/NT106.Q14-Group-1.git
+
    Clone dự án bằng lệnh: `git clone https://github.com/ha1moi1/NT106.Q14-Group-1.git`
 2. Chạy script file `monopoly.sql` trong folder Database để tạo bảng Player.
 3. Build và chạy ứng dụng.
+
+!!! **Lưu ý:** Cần phải chạy file script sql trên Microsoft SQL Server phiên bản Developer để không bị lỗi về cơ sở dữ liệu
 
 ### Các màn hình giao diện ứng dụng
 - Giao diện đăng nhập tài khoản
