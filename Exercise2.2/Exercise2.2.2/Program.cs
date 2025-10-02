@@ -1,3 +1,9 @@
+using Monopoly.BLL;
+using System;
+using System.Configuration;
+using System.Windows.Forms;
+using Monopoly.BLL;
+
 namespace Monopoly
 {
     internal static class Program
@@ -8,10 +14,9 @@ namespace Monopoly
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
+            AuthService authService = new AuthService();
             ApplicationConfiguration.Initialize();
-            Application.Run(new SignIn());
+            Application.Run(new SignIn(authService));
         }
     }
 }
