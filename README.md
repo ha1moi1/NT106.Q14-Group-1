@@ -44,5 +44,13 @@ Repository này được Nhóm 1 lớp NT106.Q14 dùng để lưu trữ code c�
 
 ### Các màn hình giao diện ứng dụng
 - Giao diện đăng nhập tài khoản
+
+![Giao diện đăng nhập tài khoản](images/SignIn.jpg "Đăng nhập")
+
 - Giao diện đăng ký tài khoản
+
+![Giao diện đăng ký tài khoản](images/SignUp.jpg "Đăng ký")
+  
 - Giao diện sau khi đăng nhập tài khoản
+
+![Giao diện sau đăng nhập tài khoản](images/AfterSignUp.jpg "Sau đăng nhập")
