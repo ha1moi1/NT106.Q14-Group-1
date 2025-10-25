@@ -85,5 +85,11 @@ namespace LoginSystem.UI
         {
 
         }
+
+        private void btnViewDetails_Click(object sender, EventArgs e)
+        {
+            ClientManagementForm frm = new ClientManagementForm();
+            frm.Show();
+        }
     }
 }

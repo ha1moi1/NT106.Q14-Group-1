@@ -81,6 +81,7 @@ namespace LoginSystem.UI
             btnViewDetails.TabIndex = 9;
             btnViewDetails.Text = "Xem chi tiết...";
             btnViewDetails.UseVisualStyleBackColor = true;
+            btnViewDetails.Click += btnViewDetails_Click;
             // 
             // lblInfor
             // 
