@@ -19,12 +19,14 @@ namespace Client.UI
 
         private void btnYes_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Đăng xuất thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Close();
         }
 
         private void btnNo_Click(object sender, EventArgs e)
         {
-            this.Close();
+            MainForm main = new MainForm();
+            main.Show();
+            this.Hide();
         }
     }
 }

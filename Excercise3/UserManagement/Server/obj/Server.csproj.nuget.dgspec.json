@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\Server.csproj": {}
+    "D:\\3_HK1-N2\\NT106\\Socket_TCP\\Excercise3\\UserManagement\\Server\\Server.csproj": {}
   },
   "projects": {
-    "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\Server.csproj": {
+    "D:\\3_HK1-N2\\NT106\\Socket_TCP\\Excercise3\\UserManagement\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\Server.csproj",
+        "projectUniqueName": "D:\\3_HK1-N2\\NT106\\Socket_TCP\\Excercise3\\UserManagement\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\Server.csproj",
+        "projectPath": "D:\\3_HK1-N2\\NT106\\Socket_TCP\\Excercise3\\UserManagement\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\obj\\",
+        "outputPath": "D:\\3_HK1-N2\\NT106\\Socket_TCP\\Excercise3\\UserManagement\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\New folder (2)\\SharedTool\\NuGetPackages"
@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

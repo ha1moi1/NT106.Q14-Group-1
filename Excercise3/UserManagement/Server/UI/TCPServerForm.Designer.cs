@@ -90,6 +90,7 @@
             lblInfor.Size = new Size(417, 21);
             lblInfor.TabIndex = 2;
             lblInfor.Text = "Hiển thị và quản lí các client đang kết nối và hoạt động";
+            lblInfor.Click += lblInfor_Click;
             // 
             // grpBoxActivityLog
             // 
@@ -140,6 +141,7 @@
             btnCloseConnect.TabIndex = 9;
             btnCloseConnect.Text = "Đóng kết nối";
             btnCloseConnect.UseVisualStyleBackColor = true;
+            btnCloseConnect.Click += btnCloseConnect_Click;
             // 
             // btnOpenConnect
             // 
@@ -151,6 +153,7 @@
             btnOpenConnect.Text = "Mở kết nối";
             btnOpenConnect.TextAlign = ContentAlignment.BottomCenter;
             btnOpenConnect.UseVisualStyleBackColor = true;
+            btnOpenConnect.Click += btnOpenConnect_Click;
             // 
             // txtBoxStatus
             // 

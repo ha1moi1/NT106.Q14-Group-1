@@ -31,7 +31,6 @@
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             lblTitle = new Label();
-            btnCloseConnect = new Button();
             btnClose = new Button();
             dataGridView1 = new DataGridView();
             CheckboxColumn = new DataGridViewCheckBoxColumn();
@@ -49,16 +48,6 @@
             lblTitle.Size = new Size(294, 23);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "Danh sách các client đã đăng nhập:";
-            // 
-            // btnCloseConnect
-            // 
-            btnCloseConnect.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCloseConnect.Location = new Point(194, 260);
-            btnCloseConnect.Name = "btnCloseConnect";
-            btnCloseConnect.Size = new Size(120, 30);
-            btnCloseConnect.TabIndex = 1;
-            btnCloseConnect.Text = "Ngắt kết nối";
-            btnCloseConnect.UseVisualStyleBackColor = true;
             // 
             // btnClose
             // 
@@ -99,12 +88,12 @@
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
             dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.EnableHeadersVisualStyles = false;
-            dataGridView1.Location = new Point(25, 44);
+            dataGridView1.Location = new Point(25, 39);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.CellSelect;
-            dataGridView1.Size = new Size(420, 200);
+            dataGridView1.Size = new Size(420, 205);
             dataGridView1.TabIndex = 3;
             // 
             // CheckboxColumn
@@ -144,7 +133,6 @@
             ClientSize = new Size(470, 307);
             Controls.Add(dataGridView1);
             Controls.Add(btnClose);
-            Controls.Add(btnCloseConnect);
             Controls.Add(lblTitle);
             Name = "ClientManagementForm";
             ShowIcon = false;
@@ -155,7 +143,6 @@
 
         #endregion
         private Label lblTitle;
-        private Button btnCloseConnect;
         private Button btnClose;
         private DataGridView dataGridView1;
         private DataGridViewCheckBoxColumn CheckboxColumn;

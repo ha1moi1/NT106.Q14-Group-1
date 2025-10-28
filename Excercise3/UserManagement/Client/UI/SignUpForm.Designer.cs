@@ -88,7 +88,6 @@
             BirthdayUser.Size = new Size(250, 27);
             BirthdayUser.TabIndex = 22;
             BirthdayUser.Value = new DateTime(1970, 1, 1, 0, 0, 0, 0);
-            BirthdayUser.ValueChanged += BirthdayUser_ValueChanged;
             // 
             // txtBoxFullName
             // 

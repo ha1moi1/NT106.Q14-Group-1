@@ -20,7 +20,8 @@ namespace Client.UI
         private void btnSignOut_Click(object sender, EventArgs e)
         {
             SignOutForm signOutForm = new SignOutForm();
-            signOutForm.ShowDialog();
+            signOutForm.Show();
+            this.Hide();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
