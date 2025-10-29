@@ -1,7 +1,7 @@
 ﻿using Client.BLL;
 using Client.UI;
 using System.Configuration;
-
+using Client.Models;
 namespace Client
 {
     public partial class SignInForm : Form
@@ -50,8 +50,10 @@ namespace Client
                 MessageBox.Show("Đăng nhập thành công!", "Thông báo",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                User use = await _auth.GetInforAfterSignIn(username);
+
                 this.Hide();
-                var mainForm = new MainForm();
+                var mainForm = new MainForm(use);
                 mainForm.Show();
             }
 
