@@ -57,30 +57,6 @@ namespace Server.DAL
             return p;
         }
 
-
-        public (string Username, string? FullName, string Email, DateTime? Birthday) GetInforPublic(string user)
-        {
-            using var conn = new SqlConnection(_connectionString);
-            conn.Open();
-
-            var cmd = new SqlCommand("SELECT Username, FullName, Email, Birthday FROM Users WHERE Username = @user", conn);
-            cmd.Parameters.AddWithValue("@user", user);
-
-            using var reader = cmd.ExecuteReader();
-            if (reader.Read())
-            {
-                string username = reader["Username"].ToString();
-                string? fullname = reader["FullName"] == DBNull.Value ? null : reader["FullName"].ToString();
-                string email = reader["Email"].ToString();
-                DateTime? birthday = reader["Birthday"] == DBNull.Value ? null : Convert.ToDateTime(reader["Birthday"]);
-
-                return (username, fullname, email, birthday);
-            }
-
-
-            return (null, null, null, null);
-        }
-
         public bool EmailExists(string email)
         {
             const string sql = @"SELECT COUNT(*) FROM Users WHERE Email = @email";

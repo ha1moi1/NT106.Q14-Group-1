@@ -93,6 +93,7 @@
             // 
             txtBoxFullName.Location = new Point(180, 60);
             txtBoxFullName.Name = "txtBoxFullName";
+            txtBoxFullName.PasswordChar = '*';
             txtBoxFullName.Size = new Size(250, 27);
             txtBoxFullName.TabIndex = 21;
             txtBoxFullName.UseSystemPasswordChar = true;
@@ -101,6 +102,7 @@
             // 
             txtBoxEmail.Location = new Point(180, 140);
             txtBoxEmail.Name = "txtBoxEmail";
+            txtBoxEmail.PasswordChar = '*';
             txtBoxEmail.Size = new Size(250, 27);
             txtBoxEmail.TabIndex = 19;
             txtBoxEmail.UseSystemPasswordChar = true;

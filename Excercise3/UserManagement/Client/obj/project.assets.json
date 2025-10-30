@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\Client.csproj",
+      "projectUniqueName": "D:\\3_HK1-N2\\NT106\\Socket_TCP\\Excercise3\\UserManagement\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\Client.csproj",
+      "projectPath": "D:\\3_HK1-N2\\NT106\\Socket_TCP\\Excercise3\\UserManagement\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\obj\\",
+      "outputPath": "D:\\3_HK1-N2\\NT106\\Socket_TCP\\Excercise3\\UserManagement\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\New folder (2)\\SharedTool\\NuGetPackages"

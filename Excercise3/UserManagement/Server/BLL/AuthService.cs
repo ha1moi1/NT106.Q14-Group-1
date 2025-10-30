@@ -1,5 +1,4 @@
-﻿using Microsoft.Data.SqlClient;
-using Server.DAL;
+﻿using Server.DAL;
 using Server.Models;
 using System;
 using System.Collections.Generic;
@@ -34,6 +33,7 @@ namespace Server.BLL
         }
 
 
+
         public bool CheckSignUp(string username, string password, string email)
         {
 
@@ -47,12 +47,6 @@ namespace Server.BLL
 
 
             return true;
-        }
-
-
-        public (string, string?, string, DateTime?) GetInforSignIn(string user)
-        {
-            return _repo.GetInforPublic(user);
         }
 
 

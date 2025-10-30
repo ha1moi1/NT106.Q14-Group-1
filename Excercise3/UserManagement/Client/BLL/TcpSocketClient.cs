@@ -81,39 +81,6 @@ namespace Client.BLL
             return (resp?.ok ?? false);
         }
 
-        public record UserInfoResponse(string? username, string? fullname, string? email, DateTime? birthday);
-
-        public async Task<UserInfoResponse?> GetUserInfoAsync(string user)
-        {
-            if (_ns == null)
-                throw new InvalidOperationException("⚠️ Chưa kết nối tới server!");
-
-            var req = new
-            {
-                action = "getinfor",
-                user
-            };
-
-            var json = JsonSerializer.Serialize(req) + "<EOF>";
-            var bytes = Encoding.UTF8.GetBytes(json);
-
-            await _ns.WriteAsync(bytes, 0, bytes.Length);
-            await _ns.FlushAsync();
-
-            string respJson = await ReadUntilEofAsync(_ns);
-
-            try
-            {
-                var resp = JsonSerializer.Deserialize<UserInfoResponse>(respJson);
-                return resp;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"❌ Lỗi đọc phản hồi GetUserInfo: {ex.Message}");
-                return null;
-            }
-        }
-
         private static async Task<string> ReadUntilEofAsync(NetworkStream ns)
         {
             var sb = new StringBuilder();

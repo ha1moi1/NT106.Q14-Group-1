@@ -24,7 +24,9 @@ namespace Client.UI
 
         private void btnNo_Click(object sender, EventArgs e)
         {
-            this.Close();
+            MainForm main = new MainForm();
+            main.Show();
+            this.Hide();
         }
     }
 }

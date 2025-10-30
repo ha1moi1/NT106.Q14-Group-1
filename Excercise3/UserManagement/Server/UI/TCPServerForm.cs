@@ -13,14 +13,12 @@ namespace Server
         private CancellationTokenSource? _cts;
         private Task? _serverTask;
         private int _connCount = 0;
-        private ClientManagementForm _form;
 
         public TCPServerForm()
         {
             InitializeComponent();
 
             Load += TCPServerForm_Load;
-            _form = new ClientManagementForm();
         }
 
         private void TCPServerForm_Load(object? sender, EventArgs e)
@@ -42,6 +40,7 @@ namespace Server
 
             txtBoxPort.Text = "9876";
 
+
             if (_server != null)
             {
                 MessageBox.Show("Server đang chạy rồi!", "Thông báo",
@@ -57,7 +56,7 @@ namespace Server
                 _cts = new CancellationTokenSource();
                 _server = new TcpSocketServer(port);
 
-                _server.UserLoggedIn += OnUserLoggedIn;
+
                 _server.ClientConnected += OnClientConnected;
                 _server.ClientDisconnected += OnClientDisconnected;
 
@@ -70,6 +69,7 @@ namespace Server
                     try
                     {
                         await _server!.StartAsync();
+                        AppendLog("Server đã dừng lắng nghe.");
                     }
                     catch (Exception ex)
                     {
@@ -161,6 +161,7 @@ namespace Server
             AppendLog($"🔴 Client ngắt kết nối.");
         }
 
+        // ====================== TIỆN ÍCH ======================
         private static string? GetLocalIPv4()
         {
             var list = NetworkInterface.GetAllNetworkInterfaces()
@@ -190,15 +191,19 @@ namespace Server
             lstBoxDiaryLog.TopIndex = lstBoxDiaryLog.Items.Count - 1;
         }
 
-        private void OnUserLoggedIn(string username, string ip, int token)
+        // Cleanup khi đóng form
+        protected override async void OnFormClosing(FormClosingEventArgs e)
         {
-            if (InvokeRequired)
+            if (_server != null)
             {
-                BeginInvoke(new Action(() => OnUserLoggedIn(username, ip, token)));
-                return;
+                AppendLog("Đang dừng server trước khi thoát...");
+                _server.Stop();
+                _cts?.Cancel();
+                if (_serverTask != null)
+                    await _serverTask;
             }
 
-            _form.AddClient(username, ip, token);
+            base.OnFormClosing(e);
         }
 
         private void btnViewDetails_Click(object sender, EventArgs e)

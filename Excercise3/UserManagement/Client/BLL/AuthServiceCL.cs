@@ -105,34 +105,6 @@ namespace Client.BLL
             }
         }
 
-
-        public async Task<User?> GetInforAfterSignIn(string username)
-        {
-            try
-            {
-                var info = await _client.GetUserInfoAsync(username);
-
-                if (info == null)
-                {
-                    Console.WriteLine("⚠️ Không nhận được thông tin user từ server!");
-                    return null;
-                }
-
-                return new User
-                {
-                    Username = info.username,
-                    FullName = info.fullname,
-                    Email = info.email,
-                    BirthDay = info.birthday
-                };
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"❌ Lỗi khi lấy thông tin user: {ex.Message}");
-                return null;
-            }
-        }
-
         public void Close() => _client.Close();
 
 
