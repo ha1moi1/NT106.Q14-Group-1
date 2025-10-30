@@ -3,26 +3,6 @@
   "WorkspaceRootPath": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\excercise3\\usermanagement\\server\\bll\\tcpsocketserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|solutionrelative:server\\bll\\tcpsocketserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\excercise3\\usermanagement\\server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|solutionrelative:server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\excercise3\\usermanagement\\client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|solutionrelative:client\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\excercise3\\usermanagement\\client\\bll\\authservicecl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|solutionrelative:client\\bll\\authservicecl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\excercise3\\usermanagement\\client\\bll\\tcpsocketclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|solutionrelative:client\\bll\\tcpsocketclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\excercise3\\usermanagement\\server\\ui\\tcpserverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|solutionrelative:server\\ui\\tcpserverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,209 +11,85 @@
       "RelativeMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|solutionrelative:server\\ui\\clientmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\client\\ui\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|solutionrelative:client\\ui\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\excercise3\\usermanagement\\server\\bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|solutionrelative:server\\bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\client\\ui\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|solutionrelative:client\\ui\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\excercise3\\usermanagement\\client\\ui\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|solutionrelative:client\\ui\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\excercise3\\usermanagement\\client\\ui\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF869E12-1BF7-452B-8611-3FA04702768A}|Client\\Client.csproj|solutionrelative:client\\ui\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\server\\ui\\tcpserverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|solutionrelative:server\\ui\\tcpserverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\server\\ui\\clientmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|solutionrelative:server\\ui\\clientmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\excercise3\\usermanagement\\server\\bll\\tcpsocketserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB9A1246-597B-4B23-8794-1B4E81F947A0}|Server\\Server.csproj|solutionrelative:server\\bll\\tcpsocketserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 297,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1189,
+          "SelectedChildIndex": 1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthServiceCL.cs",
-              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\BLL\\AuthServiceCL.cs",
-              "RelativeDocumentMoniker": "Client\\BLL\\AuthServiceCL.cs",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\BLL\\AuthServiceCL.cs",
-              "RelativeToolTip": "Client\\BLL\\AuthServiceCL.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwIsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T07:05:31.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\App.config",
-              "RelativeDocumentMoniker": "Server\\App.config",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\App.config",
-              "RelativeToolTip": "Server\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-30T05:55:25.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SignInForm.cs",
-              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\UI\\SignInForm.cs",
-              "RelativeDocumentMoniker": "Client\\UI\\SignInForm.cs",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\UI\\SignInForm.cs",
-              "RelativeToolTip": "Client\\UI\\SignInForm.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAewC8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T18:07:15.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SignUpForm.cs",
-              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\UI\\SignUpForm.cs",
-              "RelativeDocumentMoniker": "Client\\UI\\SignUpForm.cs",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\UI\\SignUpForm.cs",
-              "RelativeToolTip": "Client\\UI\\SignUpForm.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAjwDcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T18:06:47.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SignUpForm.cs [Design]",
-              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\UI\\SignUpForm.cs",
-              "RelativeDocumentMoniker": "Client\\UI\\SignUpForm.cs",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\UI\\SignUpForm.cs [Design]",
-              "RelativeToolTip": "Client\\UI\\SignUpForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T18:04:25.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SignInForm.cs [Design]",
-              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\UI\\SignInForm.cs",
-              "RelativeDocumentMoniker": "Client\\UI\\SignInForm.cs",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\UI\\SignInForm.cs [Design]",
-              "RelativeToolTip": "Client\\UI\\SignInForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T18:04:13.469Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TCPSocketServer.cs",
-              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\BLL\\TCPSocketServer.cs",
-              "RelativeDocumentMoniker": "Server\\BLL\\TCPSocketServer.cs",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\BLL\\TCPSocketServer.cs",
-              "RelativeToolTip": "Server\\BLL\\TCPSocketServer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T17:07:18.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\App.config",
-              "RelativeDocumentMoniker": "Client\\App.config",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\App.config",
-              "RelativeToolTip": "Client\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-10-30T06:42:08.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TcpSocketClient.cs",
-              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\BLL\\TcpSocketClient.cs",
-              "RelativeDocumentMoniker": "Client\\BLL\\TcpSocketClient.cs",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Client\\BLL\\TcpSocketClient.cs",
-              "RelativeToolTip": "Client\\BLL\\TcpSocketClient.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAjwHQAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T07:05:52.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClientManagementForm.cs",
-              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\UI\\ClientManagementForm.cs",
-              "RelativeDocumentMoniker": "Server\\UI\\ClientManagementForm.cs",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\UI\\ClientManagementForm.cs",
-              "RelativeToolTip": "Server\\UI\\ClientManagementForm.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAjwBYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T17:43:49.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "TCPServerForm.cs",
               "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\UI\\TCPServerForm.cs",
               "RelativeDocumentMoniker": "Server\\UI\\TCPServerForm.cs",
               "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\UI\\TCPServerForm.cs",
               "RelativeToolTip": "Server\\UI\\TCPServerForm.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAADwvz8AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAswMcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T17:07:39.899Z",
+              "WhenOpened": "2025-10-30T11:36:14.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TCPServerForm.cs [Design]",
-              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\UI\\TCPServerForm.cs",
-              "RelativeDocumentMoniker": "Server\\UI\\TCPServerForm.cs",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\UI\\TCPServerForm.cs [Design]",
-              "RelativeToolTip": "Server\\UI\\TCPServerForm.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\BLL\\AuthService.cs",
+              "RelativeDocumentMoniker": "Server\\BLL\\AuthService.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\BLL\\AuthService.cs",
+              "RelativeToolTip": "Server\\BLL\\AuthService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvxMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T21:51:55.563Z"
+              "WhenOpened": "2025-10-30T08:35:58.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ClientManagementForm.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "ClientManagementForm.cs",
               "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\UI\\ClientManagementForm.cs",
               "RelativeDocumentMoniker": "Server\\UI\\ClientManagementForm.cs",
-              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\UI\\ClientManagementForm.cs [Design]",
-              "RelativeToolTip": "Server\\UI\\ClientManagementForm.cs [Design]",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\UI\\ClientManagementForm.cs",
+              "RelativeToolTip": "Server\\UI\\ClientManagementForm.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T21:51:19.571Z"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 103,
-          "SelectedChildIndex": -1,
-          "Children": [
+              "WhenOpened": "2025-10-30T11:35:59.42Z"
+            },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TCPSocketServer.cs",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\BLL\\TCPSocketServer.cs",
+              "RelativeDocumentMoniker": "Server\\BLL\\TCPSocketServer.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Excercise3\\UserManagement\\Server\\BLL\\TCPSocketServer.cs",
+              "RelativeToolTip": "Server\\BLL\\TCPSocketServer.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAuwKUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T08:36:12.141Z"
             }
           ]
         }

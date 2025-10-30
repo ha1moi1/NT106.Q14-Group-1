@@ -4,9 +4,6 @@ using System.Text;
 using System.Text.Json;
 using Server.BLL;
 
-/// <summary>
-/// 
-/// </summary>
 public class TcpSocketServer
 {
     private readonly int _port;
@@ -17,8 +14,8 @@ public class TcpSocketServer
 
     private readonly AuthService _auth = new();
 
-    public event Action? ClientConnected;
-    public event Action? ClientDisconnected;
+    public event Action<string>? ClientConnected;
+    public event Action<string>? ClientDisconnected;
     public event Action<string, string, int>? UserLoggedIn;
 
     private readonly Dictionary<TcpClient, string> _clientIps = new();
@@ -38,7 +35,7 @@ public class TcpSocketServer
         _listener.Start();
 
 
-        Console.WriteLine($"✅ Server đang lắng nghe trên port {_port}");
+        Console.WriteLine($"Server đang lắng nghe trên port {_port}");
 
         while (!_cts.IsCancellationRequested)
         {
@@ -52,8 +49,8 @@ public class TcpSocketServer
                     int port = remote.Port;
                     _clientIps[client] = $"{ip}:{port}";
 
-                    Console.WriteLine($"🟢 Client mới kết nối: {ip}:{port}");
-                    ClientConnected?.Invoke();
+                    Console.WriteLine($"Client mới kết nối: {ip}:{port}");
+                    ClientConnected?.Invoke(ip);
                 }
 
                 _ = Task.Run(async () =>
@@ -64,24 +61,30 @@ public class TcpSocketServer
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine($"⚠️ Lỗi client: {ex.Message}");
+                        Console.WriteLine($"Lỗi client: {ex.Message}");
                     }
                     finally
                     {
                         try
                         {
+                            string? ip = null;
                             if (_clientIps.TryGetValue(client, out string addr))
                             {
-                                Console.WriteLine($"🔴 Client ngắt kết nối: {addr}");
+                                ip = addr.Split(':')[0];
                                 _clientIps.Remove(client);
                             }
 
-                            ClientDisconnected?.Invoke();
+                            if (ip != null)
+                            {
+                                Console.WriteLine($"Client ngắt kết nối: {ip}");
+                                ClientDisconnected?.Invoke(ip);
+                            }
+
                             client?.Close();
                         }
                         catch (Exception ex)
                         {
-                            Console.WriteLine($"⚠️ Lỗi khi đóng kết nối client: {ex.Message}");
+                            Console.WriteLine($"Lỗi khi đóng kết nối client: {ex.Message}");
                         }
                     }
                 });
@@ -99,7 +102,7 @@ public class TcpSocketServer
         try { _listener?.Stop(); } catch { }
 
         IsRunning = false;
-        Console.WriteLine("⏹ Server đã dừng.");
+        Console.WriteLine(" Server đã dừng.");
     }
 
     private async Task HandleClientAsync(TcpClient client)
@@ -130,14 +133,15 @@ public class TcpSocketServer
                                 var user = root.GetProperty("user").GetString() ?? "";
                                 var pass = root.GetProperty("pass").GetString() ?? "";
                                 bool ok = _auth.CheckInforSignIn(user, pass);
+
+
                                 resp = ok ? ServerResponse.Ok : ServerResponse.Fail;
 
                                 if (ok && client.Client.RemoteEndPoint is IPEndPoint remote)
                                 {
                                     string ip = remote.Address.ToString();
                                     _token++;
-
-                                    Console.WriteLine($"👤 User '{user}' đăng nhập từ {ip}");
+                                    
                                     UserLoggedIn?.Invoke(user, ip, _token);
                                 }
                                 break;
@@ -176,7 +180,7 @@ public class TcpSocketServer
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"❌ Lỗi xử lý JSON: {ex.Message}");
+                    Console.WriteLine($"Lỗi xử lý JSON: {ex.Message}");
                     resp = ServerResponse.Fail;
                 }
 
@@ -194,9 +198,9 @@ public class TcpSocketServer
         finally
         {
             if (_clientIps.TryGetValue(client, out string addr))
-                Console.WriteLine($"🔴 Client đóng kết nối: {addr}");
+                Console.WriteLine($"Client đóng kết nối: {addr}");
             else
-                Console.WriteLine($"🔴 Client đóng kết nối (chưa có IP)");
+                Console.WriteLine($"Client đóng kết nối (chưa có IP)");
 
             ns.Close();
             client.Close();

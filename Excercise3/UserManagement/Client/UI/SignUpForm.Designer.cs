@@ -95,7 +95,6 @@
             txtBoxFullName.Name = "txtBoxFullName";
             txtBoxFullName.Size = new Size(250, 27);
             txtBoxFullName.TabIndex = 21;
-            txtBoxFullName.UseSystemPasswordChar = true;
             // 
             // txtBoxEmail
             // 
@@ -103,7 +102,6 @@
             txtBoxEmail.Name = "txtBoxEmail";
             txtBoxEmail.Size = new Size(250, 27);
             txtBoxEmail.TabIndex = 19;
-            txtBoxEmail.UseSystemPasswordChar = true;
             // 
             // txtBoxCheckPassword
             // 
@@ -291,6 +289,7 @@
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Đăng kí";
+            Load += SignUpForm_Load;
             pnlRegister.ResumeLayout(false);
             pnlRegister.PerformLayout();
             pnlHeader.ResumeLayout(false);

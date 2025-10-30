@@ -14,6 +14,7 @@ namespace Client.UI
         {
             InitializeComponent();
             _auth = auth;
+
         }
 
         private async void btnOK_Click(object sender, EventArgs e)
@@ -56,6 +57,11 @@ namespace Client.UI
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void SignUpForm_Load(object sender, EventArgs e)
+        {
+            BirthdayUser.CustomFormat = " ";
         }
     }
 }

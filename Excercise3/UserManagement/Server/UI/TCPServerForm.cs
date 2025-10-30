@@ -73,11 +73,11 @@ namespace Server
                     }
                     catch (Exception ex)
                     {
-                        AppendLog($"⚠️ Lỗi server: {ex.Message}");
+                        AppendLog($"⚠Lỗi server: {ex.Message}");
                     }
                 });
 
-                AppendLog($"✅ Server khởi động thành công trên port {port}");
+                AppendLog($"Server khởi động thành công trên port {port}");
             }
             catch (Exception ex)
             {
@@ -111,11 +111,11 @@ namespace Server
                 if (_serverTask != null)
                     await _serverTask;
 
-                AppendLog("⏹ Server đã dừng.");
+                AppendLog(" Server đã dừng.");
             }
             catch (Exception ex)
             {
-                AppendLog($"⚠️ Lỗi khi dừng server: {ex.Message}");
+                AppendLog($" Lỗi khi dừng server: {ex.Message}");
             }
             finally
             {
@@ -135,30 +135,30 @@ namespace Server
         }
 
 
-        private void OnClientConnected()
+        private void OnClientConnected(string ip)
         {
             if (InvokeRequired)
             {
-                BeginInvoke(new Action(OnClientConnected));
+                BeginInvoke(new Action<string>(OnClientConnected), ip);
                 return;
             }
 
             _connCount++;
             txtBoxConnects.Text = _connCount.ToString();
-            AppendLog($"🟢 Client mới kết nối.");
+            AppendLog($"Client {ip} kết nối.");
         }
 
-        private void OnClientDisconnected()
+        private void OnClientDisconnected(string ip)
         {
             if (InvokeRequired)
             {
-                BeginInvoke(new Action(OnClientDisconnected));
+                BeginInvoke(new Action<string>(OnClientDisconnected), ip);
                 return;
             }
 
             _connCount = Math.Max(0, _connCount - 1);
             txtBoxConnects.Text = _connCount.ToString();
-            AppendLog($"🔴 Client ngắt kết nối.");
+            AppendLog($"Client {ip} ngắt kết nối.");
         }
 
         private static string? GetLocalIPv4()
@@ -203,14 +203,19 @@ namespace Server
 
         private void btnViewDetails_Click(object sender, EventArgs e)
         {
-            ClientManagementForm frm = new ClientManagementForm();
-            frm.Show();
+            _form.Show();   
+            _form.BringToFront();
         }
 
         private void lblInfor_Click(object sender, EventArgs e)
         {
-            ClientManagementForm frm = new ClientManagementForm();
-            frm.Show();
+            _form.Show(); 
+            _form.BringToFront();
+        }
+
+        private void TCPServerForm_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

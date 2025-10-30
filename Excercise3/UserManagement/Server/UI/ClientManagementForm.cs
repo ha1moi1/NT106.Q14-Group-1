@@ -27,7 +27,7 @@ namespace Server.UI
 
         public void AddClient(string username, string ip, int token)
         {
-            dataGridView1.Rows.Add(username, ip, token);
+            dataGridView1.Rows.Add(true, username, ip, token);
         }
 
         public void RemoveClient(string username)

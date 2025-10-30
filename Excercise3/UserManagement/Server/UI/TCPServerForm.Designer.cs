@@ -278,6 +278,7 @@
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Server";
+            Load += TCPServerForm_Load_1;
             pnlInfor.ResumeLayout(false);
             pnlInfor.PerformLayout();
             grpBoxActivityLog.ResumeLayout(false);
