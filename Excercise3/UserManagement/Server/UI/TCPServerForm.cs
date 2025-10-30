@@ -70,7 +70,6 @@ namespace Server
                     try
                     {
                         await _server!.StartAsync();
-                        AppendLog("Server đã dừng lắng nghe.");
                     }
                     catch (Exception ex)
                     {

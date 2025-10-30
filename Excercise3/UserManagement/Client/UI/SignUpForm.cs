@@ -39,7 +39,9 @@ namespace Client.UI
             {
                 MessageBox.Show("🎉 Đăng ký thành công!", "Thành công",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
+                SignInForm form = new SignInForm();
+                form.Show();
+                this.Hide();
             }
 
         }
