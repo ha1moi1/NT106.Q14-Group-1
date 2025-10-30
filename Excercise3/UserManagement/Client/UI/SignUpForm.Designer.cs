@@ -28,196 +28,103 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pnlRegister = new Panel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUpForm));
             BirthdayUser = new DateTimePicker();
             txtBoxFullName = new TextBox();
             txtBoxEmail = new TextBox();
             txtBoxCheckPassword = new TextBox();
-            lblFullName = new Label();
-            lblCheckPassword = new Label();
-            lblBirthday = new Label();
-            lblEmail = new Label();
-            btnSignIn = new Button();
             btnCancel = new Button();
-            lblUsername = new Label();
-            lblPassword = new Label();
             btnOK = new Button();
             txtUsername = new TextBox();
             txtPassword = new TextBox();
-            pnlHeader = new Panel();
-            lblAppName = new Label();
-            pictureBox1 = new PictureBox();
+            panel2 = new Panel();
+            label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
             label1 = new Label();
-            pnlRegister.SuspendLayout();
-            pnlHeader.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
-            // 
-            // pnlRegister
-            // 
-            pnlRegister.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pnlRegister.BackColor = SystemColors.ButtonFace;
-            pnlRegister.BorderStyle = BorderStyle.FixedSingle;
-            pnlRegister.Controls.Add(BirthdayUser);
-            pnlRegister.Controls.Add(txtBoxFullName);
-            pnlRegister.Controls.Add(txtBoxEmail);
-            pnlRegister.Controls.Add(txtBoxCheckPassword);
-            pnlRegister.Controls.Add(lblFullName);
-            pnlRegister.Controls.Add(lblCheckPassword);
-            pnlRegister.Controls.Add(lblBirthday);
-            pnlRegister.Controls.Add(lblEmail);
-            pnlRegister.Controls.Add(btnSignIn);
-            pnlRegister.Controls.Add(btnCancel);
-            pnlRegister.Controls.Add(lblUsername);
-            pnlRegister.Controls.Add(lblPassword);
-            pnlRegister.Controls.Add(btnOK);
-            pnlRegister.Controls.Add(txtUsername);
-            pnlRegister.Controls.Add(txtPassword);
-            pnlRegister.Location = new Point(0, 90);
-            pnlRegister.Name = "pnlRegister";
-            pnlRegister.Size = new Size(585, 326);
-            pnlRegister.TabIndex = 7;
             // 
             // BirthdayUser
             // 
             BirthdayUser.CustomFormat = "dd-MM-yyyy";
             BirthdayUser.Format = DateTimePickerFormat.Custom;
-            BirthdayUser.Location = new Point(180, 100);
+            BirthdayUser.Location = new Point(313, 328);
+            BirthdayUser.Margin = new Padding(5);
             BirthdayUser.MaxDate = new DateTime(2025, 10, 25, 21, 44, 4, 914);
             BirthdayUser.Name = "BirthdayUser";
-            BirthdayUser.Size = new Size(250, 27);
+            BirthdayUser.ShowCheckBox = true;
+            BirthdayUser.Size = new Size(404, 39);
             BirthdayUser.TabIndex = 22;
+            BirthdayUser.TabStop = false;
             BirthdayUser.Value = new DateTime(1970, 1, 1, 0, 0, 0, 0);
             BirthdayUser.ValueChanged += BirthdayUser_ValueChanged;
             // 
             // txtBoxFullName
             // 
-            txtBoxFullName.Location = new Point(180, 60);
+            txtBoxFullName.Location = new Point(313, 100);
+            txtBoxFullName.Margin = new Padding(5);
+            txtBoxFullName.Multiline = true;
             txtBoxFullName.Name = "txtBoxFullName";
             txtBoxFullName.PasswordChar = '*';
-            txtBoxFullName.Size = new Size(250, 27);
+            txtBoxFullName.Size = new Size(404, 40);
             txtBoxFullName.TabIndex = 21;
             txtBoxFullName.UseSystemPasswordChar = true;
             // 
             // txtBoxEmail
             // 
-            txtBoxEmail.Location = new Point(180, 140);
+            txtBoxEmail.Location = new Point(313, 250);
+            txtBoxEmail.Margin = new Padding(5);
+            txtBoxEmail.Multiline = true;
             txtBoxEmail.Name = "txtBoxEmail";
             txtBoxEmail.PasswordChar = '*';
-            txtBoxEmail.Size = new Size(250, 27);
+            txtBoxEmail.Size = new Size(404, 40);
             txtBoxEmail.TabIndex = 19;
             txtBoxEmail.UseSystemPasswordChar = true;
+            txtBoxEmail.TextChanged += txtBoxEmail_TextChanged;
             // 
             // txtBoxCheckPassword
             // 
-            txtBoxCheckPassword.Location = new Point(180, 220);
+            txtBoxCheckPassword.Location = new Point(313, 476);
+            txtBoxCheckPassword.Margin = new Padding(5);
+            txtBoxCheckPassword.Multiline = true;
             txtBoxCheckPassword.Name = "txtBoxCheckPassword";
             txtBoxCheckPassword.PasswordChar = '*';
-            txtBoxCheckPassword.Size = new Size(250, 27);
+            txtBoxCheckPassword.Size = new Size(404, 39);
             txtBoxCheckPassword.TabIndex = 18;
             txtBoxCheckPassword.UseSystemPasswordChar = true;
             // 
-            // lblFullName
-            // 
-            lblFullName.AutoSize = true;
-            lblFullName.Font = new Font("Tahoma", 10.2F);
-            lblFullName.Location = new Point(20, 60);
-            lblFullName.Name = "lblFullName";
-            lblFullName.Size = new Size(87, 21);
-            lblFullName.TabIndex = 17;
-            lblFullName.Text = "Họ và tên:";
-            // 
-            // lblCheckPassword
-            // 
-            lblCheckPassword.AutoSize = true;
-            lblCheckPassword.Font = new Font("Tahoma", 10.2F);
-            lblCheckPassword.Location = new Point(20, 220);
-            lblCheckPassword.Name = "lblCheckPassword";
-            lblCheckPassword.Size = new Size(150, 21);
-            lblCheckPassword.TabIndex = 16;
-            lblCheckPassword.Text = "Nhập lại mật khẩu:";
-            // 
-            // lblBirthday
-            // 
-            lblBirthday.AutoSize = true;
-            lblBirthday.Font = new Font("Tahoma", 10.2F);
-            lblBirthday.Location = new Point(20, 100);
-            lblBirthday.Name = "lblBirthday";
-            lblBirthday.Size = new Size(88, 21);
-            lblBirthday.TabIndex = 15;
-            lblBirthday.Text = "Ngày sinh:";
-            // 
-            // lblEmail
-            // 
-            lblEmail.AutoSize = true;
-            lblEmail.Font = new Font("Tahoma", 10.2F);
-            lblEmail.Location = new Point(20, 140);
-            lblEmail.Name = "lblEmail";
-            lblEmail.Size = new Size(57, 21);
-            lblEmail.TabIndex = 14;
-            lblEmail.Text = "Email:";
-            // 
-            // btnSignIn
-            // 
-            btnSignIn.BackColor = SystemColors.ButtonHighlight;
-            btnSignIn.FlatAppearance.BorderColor = Color.White;
-            btnSignIn.FlatAppearance.BorderSize = 2;
-            btnSignIn.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSignIn.ForeColor = SystemColors.ActiveCaptionText;
-            btnSignIn.Location = new Point(440, 275);
-            btnSignIn.Name = "btnSignIn";
-            btnSignIn.Size = new Size(120, 35);
-            btnSignIn.TabIndex = 12;
-            btnSignIn.Text = "Đăng nhập...";
-            btnSignIn.UseVisualStyleBackColor = false;
-            btnSignIn.Click += btnSignIn_Click;
-            // 
             // btnCancel
             // 
-            btnCancel.BackColor = SystemColors.ButtonHighlight;
+            btnCancel.BackColor = Color.White;
             btnCancel.DialogResult = DialogResult.Cancel;
             btnCancel.FlatAppearance.BorderColor = Color.White;
             btnCancel.FlatAppearance.BorderSize = 2;
-            btnCancel.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCancel.ForeColor = SystemColors.ActiveCaptionText;
-            btnCancel.Location = new Point(310, 275);
+            btnCancel.Font = new Font("Tahoma", 10.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCancel.ForeColor = Color.Navy;
+            btnCancel.Location = new Point(541, 548);
+            btnCancel.Margin = new Padding(5);
             btnCancel.Name = "btnCancel";
-            btnCancel.Size = new Size(120, 35);
+            btnCancel.Size = new Size(191, 86);
             btnCancel.TabIndex = 13;
             btnCancel.Text = "Hủy bỏ";
             btnCancel.UseVisualStyleBackColor = false;
             btnCancel.Click += btnCancel_Click;
             // 
-            // lblUsername
-            // 
-            lblUsername.AutoSize = true;
-            lblUsername.Font = new Font("Tahoma", 10.2F);
-            lblUsername.Location = new Point(20, 20);
-            lblUsername.Name = "lblUsername";
-            lblUsername.Size = new Size(131, 21);
-            lblUsername.TabIndex = 4;
-            lblUsername.Text = "Tên người dùng:";
-            // 
-            // lblPassword
-            // 
-            lblPassword.AutoSize = true;
-            lblPassword.Font = new Font("Tahoma", 10.2F);
-            lblPassword.Location = new Point(20, 180);
-            lblPassword.Name = "lblPassword";
-            lblPassword.Size = new Size(84, 21);
-            lblPassword.TabIndex = 5;
-            lblPassword.Text = "Mật khẩu:";
-            // 
             // btnOK
             // 
-            btnOK.BackColor = SystemColors.ButtonHighlight;
+            btnOK.BackColor = Color.White;
             btnOK.DialogResult = DialogResult.OK;
             btnOK.FlatAppearance.BorderSize = 2;
-            btnOK.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnOK.ForeColor = SystemColors.ActiveCaptionText;
-            btnOK.Location = new Point(180, 275);
+            btnOK.Font = new Font("Tahoma", 10.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnOK.ForeColor = Color.Navy;
+            btnOK.Location = new Point(285, 548);
+            btnOK.Margin = new Padding(5);
             btnOK.Name = "btnOK";
-            btnOK.Size = new Size(120, 35);
+            btnOK.Size = new Size(191, 86);
             btnOK.TabIndex = 9;
             btnOK.Text = "OK";
             btnOK.UseVisualStyleBackColor = false;
@@ -225,103 +132,167 @@
             // 
             // txtUsername
             // 
-            txtUsername.Location = new Point(180, 20);
+            txtUsername.Location = new Point(313, 173);
+            txtUsername.Margin = new Padding(5);
+            txtUsername.Multiline = true;
             txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(250, 27);
+            txtUsername.Size = new Size(404, 41);
             txtUsername.TabIndex = 7;
+            txtUsername.TextChanged += txtUsername_TextChanged;
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(180, 180);
+            txtPassword.Location = new Point(313, 401);
+            txtPassword.Margin = new Padding(5);
+            txtPassword.Multiline = true;
             txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '*';
-            txtPassword.Size = new Size(250, 27);
+            txtPassword.Size = new Size(404, 40);
             txtPassword.TabIndex = 8;
             txtPassword.UseSystemPasswordChar = true;
             // 
-            // pnlHeader
+            // panel2
             // 
-            pnlHeader.BackColor = SystemColors.ButtonHighlight;
-            pnlHeader.Controls.Add(lblAppName);
-            pnlHeader.Controls.Add(pictureBox1);
-            pnlHeader.Controls.Add(label1);
-            pnlHeader.Dock = DockStyle.Top;
-            pnlHeader.Location = new Point(0, 0);
-            pnlHeader.Name = "pnlHeader";
-            pnlHeader.Size = new Size(585, 90);
-            pnlHeader.TabIndex = 8;
+            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
+            panel2.Controls.Add(label7);
+            panel2.Controls.Add(label6);
+            panel2.Controls.Add(label5);
+            panel2.Controls.Add(label4);
+            panel2.Controls.Add(label3);
+            panel2.Controls.Add(label2);
+            panel2.Controls.Add(btnOK);
+            panel2.Controls.Add(btnCancel);
+            panel2.Controls.Add(txtBoxFullName);
+            panel2.Controls.Add(txtBoxCheckPassword);
+            panel2.Controls.Add(BirthdayUser);
+            panel2.Controls.Add(txtUsername);
+            panel2.Controls.Add(txtBoxEmail);
+            panel2.Controls.Add(txtPassword);
+            panel2.Location = new Point(145, 169);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(973, 687);
+            panel2.TabIndex = 24;
             // 
-            // lblAppName
+            // label7
             // 
-            lblAppName.AutoSize = true;
-            lblAppName.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblAppName.ImageAlign = ContentAlignment.MiddleRight;
-            lblAppName.Location = new Point(158, 11);
-            lblAppName.Name = "lblAppName";
-            lblAppName.Size = new Size(281, 38);
-            lblAppName.TabIndex = 2;
-            lblAppName.Text = "Quản lý người dùng";
+            label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.AliceBlue;
+            label7.Location = new Point(44, 479);
+            label7.Name = "label7";
+            label7.Size = new Size(243, 32);
+            label7.TabIndex = 31;
+            label7.Text = "Nhập lại mật khẩu : ";
             // 
-            // pictureBox1
+            // label6
             // 
-            pictureBox1.Image = Properties.Resources.logo;
-            pictureBox1.Location = new Point(94, 13);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(54, 65);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 14;
-            pictureBox1.TabStop = false;
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.AliceBlue;
+            label6.Location = new Point(78, 409);
+            label6.Name = "label6";
+            label6.Size = new Size(209, 32);
+            label6.TabIndex = 30;
+            label6.Text = "Nhập mật khẩu : ";
+            label6.Click += label6_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.AliceBlue;
+            label5.Location = new Point(74, 333);
+            label5.Name = "label5";
+            label5.Size = new Size(213, 32);
+            label5.TabIndex = 29;
+            label5.Text = "Nhập ngày sinh : ";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.AliceBlue;
+            label4.Location = new Point(122, 253);
+            label4.Name = "label4";
+            label4.Size = new Size(165, 32);
+            label4.TabIndex = 28;
+            label4.Text = "Nhập Email : ";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.AliceBlue;
+            label3.Location = new Point(5, 182);
+            label3.Name = "label3";
+            label3.Size = new Size(282, 32);
+            label3.TabIndex = 27;
+            label3.Text = "Nhập tên người dùng : ";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.AliceBlue;
+            label2.Location = new Point(78, 108);
+            label2.Name = "label2";
+            label2.Size = new Size(209, 32);
+            label2.TabIndex = 26;
+            label2.Text = "Nhập họ và tên : ";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(201, 50);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Navy;
+            label1.Location = new Point(511, 64);
             label1.Name = "label1";
-            label1.Size = new Size(234, 28);
-            label1.TabIndex = 4;
-            label1.Text = "TCP Client - Phiên bản 1.0";
-            label1.TextAlign = ContentAlignment.MiddleRight;
+            label1.Size = new Size(285, 86);
+            label1.TabIndex = 25;
+            label1.Text = "Đăng ký";
             // 
             // SignUpForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(585, 414);
-            Controls.Add(pnlHeader);
-            Controls.Add(pnlRegister);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(1286, 895);
+            Controls.Add(label1);
+            Controls.Add(panel2);
+            Margin = new Padding(5);
             Name = "SignUpForm";
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Đăng kí";
-            pnlRegister.ResumeLayout(false);
-            pnlRegister.PerformLayout();
-            pnlHeader.ResumeLayout(false);
-            pnlHeader.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            Text = "Đăng ký";
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
-        private Panel pnlRegister;
-        private Button btnSignIn;
         private Button btnCancel;
-        private Label lblUsername;
-        private Label lblPassword;
         private Button btnOK;
         private TextBox txtUsername;
         private TextBox txtPassword;
         private TextBox txtBoxFullName;
         private TextBox txtBoxEmail;
         private TextBox txtBoxCheckPassword;
-        private Label lblFullName;
-        private Label lblCheckPassword;
-        private Label lblBirthday;
-        private Label lblEmail;
         private DateTimePicker BirthdayUser;
-        private Panel pnlHeader;
-        private Label lblAppName;
-        private PictureBox pictureBox1;
+        private Panel panel2;
         private Label label1;
+        private Label label6;
+        private Label label5;
+        private Label label4;
+        private Label label3;
+        private Label label2;
+        private Label label7;
     }
 }

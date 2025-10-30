@@ -28,32 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignOutForm));
             btnYes = new Button();
             btnNo = new Button();
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            pictureBox2 = new PictureBox();
+            panel1 = new Panel();
+            label1 = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(99, 41);
-            label1.Name = "label1";
-            label1.Size = new Size(272, 21);
-            label1.TabIndex = 0;
-            label1.Text = "Bạn có chắc chắn muốn đăng xuất?";
             // 
             // btnYes
             // 
-            btnYes.BackColor = SystemColors.ButtonHighlight;
+            btnYes.BackColor = Color.White;
             btnYes.DialogResult = DialogResult.OK;
-            btnYes.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnYes.ForeColor = Color.Black;
-            btnYes.Location = new Point(125, 82);
+            btnYes.Font = new Font("Segoe UI", 10.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnYes.ForeColor = Color.Navy;
+            btnYes.Location = new Point(221, 287);
+            btnYes.Margin = new Padding(5);
             btnYes.Name = "btnYes";
-            btnYes.Size = new Size(100, 35);
+            btnYes.Size = new Size(162, 74);
             btnYes.TabIndex = 10;
             btnYes.Text = "Có";
             btnYes.UseVisualStyleBackColor = false;
@@ -61,56 +55,82 @@
             // 
             // btnNo
             // 
-            btnNo.BackColor = SystemColors.ButtonHighlight;
+            btnNo.BackColor = Color.White;
             btnNo.DialogResult = DialogResult.Cancel;
             btnNo.FlatAppearance.BorderColor = Color.White;
             btnNo.FlatAppearance.BorderSize = 2;
-            btnNo.Font = new Font("Tahoma", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnNo.Location = new Point(238, 82);
+            btnNo.Font = new Font("Segoe UI", 10.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnNo.ForeColor = Color.Navy;
+            btnNo.Location = new Point(410, 190);
+            btnNo.Margin = new Padding(5);
             btnNo.Name = "btnNo";
-            btnNo.Size = new Size(100, 35);
+            btnNo.Size = new Size(162, 74);
             btnNo.TabIndex = 13;
             btnNo.Text = "Không";
             btnNo.UseVisualStyleBackColor = false;
             btnNo.Click += btnNo_Click;
             // 
-            // pictureBox1
+            // pictureBox2
             // 
-            pictureBox1.Image = Properties.Resources.icon_logout;
-            pictureBox1.Location = new Point(28, 27);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(56, 51);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 14;
-            pictureBox1.TabStop = false;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(-169, 217);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(0, 0);
+            pictureBox2.TabIndex = 15;
+            pictureBox2.TabStop = false;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.SkyBlue;
+            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(btnNo);
+            panel1.Location = new Point(118, 97);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(676, 296);
+            panel1.TabIndex = 16;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.GhostWhite;
+            label1.Location = new Point(60, 81);
+            label1.Name = "label1";
+            label1.Size = new Size(558, 45);
+            label1.TabIndex = 14;
+            label1.Text = "Bạn có chắc chắn muốn đăng xuất ?";
             // 
             // SignOutForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
-            ClientSize = new Size(389, 134);
-            Controls.Add(pictureBox1);
-            Controls.Add(btnNo);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(909, 472);
             Controls.Add(btnYes);
-            Controls.Add(label1);
+            Controls.Add(pictureBox2);
+            Controls.Add(panel1);
+            Margin = new Padding(5);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "SignOutForm";
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Đăng xuất";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
 
         }
 
         #endregion
-
-        private Label label1;
         private Button btnYes;
         private Button btnNo;
-        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private Panel panel1;
+        private Label label1;
     }
 }

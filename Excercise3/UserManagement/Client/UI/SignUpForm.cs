@@ -39,6 +39,27 @@ namespace Client.UI
         {
             this.BirthdayUser.Format = DateTimePickerFormat.Custom;
             this.BirthdayUser.CustomFormat = "dd-MM-yyyy";
+            this.BirthdayUser.CustomFormat = " ";
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBoxEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
