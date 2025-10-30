@@ -36,7 +36,7 @@
             CheckboxColumn = new DataGridViewCheckBoxColumn();
             UserColumn = new DataGridViewTextBoxColumn();
             IPColumn = new DataGridViewTextBoxColumn();
-            PortColumn = new DataGridViewTextBoxColumn();
+            TokenColumn = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -78,7 +78,7 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { CheckboxColumn, UserColumn, IPColumn, PortColumn });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { CheckboxColumn, UserColumn, IPColumn, TokenColumn });
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = SystemColors.Window;
             dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
@@ -119,12 +119,12 @@
             IPColumn.Name = "IPColumn";
             IPColumn.Width = 125;
             // 
-            // PortColumn
+            // TokenColumn
             // 
-            PortColumn.HeaderText = "Cổng";
-            PortColumn.MinimumWidth = 6;
-            PortColumn.Name = "PortColumn";
-            PortColumn.Width = 80;
+            TokenColumn.HeaderText = "Token";
+            TokenColumn.MinimumWidth = 6;
+            TokenColumn.Name = "TokenColumn";
+            TokenColumn.Width = 80;
             // 
             // ClientManagementForm
             // 
@@ -148,6 +148,6 @@
         private DataGridViewCheckBoxColumn CheckboxColumn;
         private DataGridViewTextBoxColumn UserColumn;
         private DataGridViewTextBoxColumn IPColumn;
-        private DataGridViewTextBoxColumn PortColumn;
+        private DataGridViewTextBoxColumn TokenColumn;
     }
 }

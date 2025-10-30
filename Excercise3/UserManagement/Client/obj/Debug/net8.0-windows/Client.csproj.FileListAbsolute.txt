@@ -5,7 +5,6 @@ D:\3_HK1-N2\NT106\BaiTap\NT106.Q14-Group-1\Excercise3\UserManagement\Client\bin\
 D:\3_HK1-N2\NT106\BaiTap\NT106.Q14-Group-1\Excercise3\UserManagement\Client\bin\Debug\net8.0-windows\Client.dll
 D:\3_HK1-N2\NT106\BaiTap\NT106.Q14-Group-1\Excercise3\UserManagement\Client\bin\Debug\net8.0-windows\Client.pdb
 D:\3_HK1-N2\NT106\BaiTap\NT106.Q14-Group-1\Excercise3\UserManagement\Client\obj\Debug\net8.0-windows\Client.Properties.Resources.resources
-D:\3_HK1-N2\NT106\BaiTap\NT106.Q14-Group-1\Excercise3\UserManagement\Client\obj\Debug\net8.0-windows\LoginSystem.UI.ClientManagementForm.resources
 D:\3_HK1-N2\NT106\BaiTap\NT106.Q14-Group-1\Excercise3\UserManagement\Client\obj\Debug\net8.0-windows\Client.UI.MainForm.resources
 D:\3_HK1-N2\NT106\BaiTap\NT106.Q14-Group-1\Excercise3\UserManagement\Client\obj\Debug\net8.0-windows\Client.SignInForm.resources
 D:\3_HK1-N2\NT106\BaiTap\NT106.Q14-Group-1\Excercise3\UserManagement\Client\obj\Debug\net8.0-windows\Client.UI.SignOutForm.resources

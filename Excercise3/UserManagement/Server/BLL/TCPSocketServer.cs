@@ -4,25 +4,39 @@ using System.Text;
 using System.Text.Json;
 using Server.BLL;
 
-
+/// <summary>
+/// 
+/// </summary>
 public class TcpSocketServer
 {
     private readonly int _port;
     private TcpListener? _listener;
     private CancellationTokenSource? _cts;
+    private int _token;
+    public bool IsRunning { get; private set; } = false;
 
-    private AuthService _auth = new();
+    private readonly AuthService _auth = new();
 
     public event Action? ClientConnected;
     public event Action? ClientDisconnected;
+    public event Action<string, string, int>? UserLoggedIn;
+
+    private readonly Dictionary<TcpClient, string> _clientIps = new();
 
     public TcpSocketServer(int port = 9876) => _port = port;
 
     public async Task StartAsync()
     {
+        if (IsRunning)
+        {
+            Stop();
+        }
+
         _cts = new CancellationTokenSource();
         _listener = new TcpListener(IPAddress.Any, _port);
+        _listener.Server.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
         _listener.Start();
+
 
         Console.WriteLine($"✅ Server đang lắng nghe trên port {_port}");
 
@@ -31,7 +45,16 @@ public class TcpSocketServer
             try
             {
                 var client = await _listener.AcceptTcpClientAsync(_cts.Token);
-                ClientConnected?.Invoke();
+
+                if (client.Client.RemoteEndPoint is IPEndPoint remote)
+                {
+                    string ip = remote.Address.ToString();
+                    int port = remote.Port;
+                    _clientIps[client] = $"{ip}:{port}";
+
+                    Console.WriteLine($"🟢 Client mới kết nối: {ip}:{port}");
+                    ClientConnected?.Invoke();
+                }
 
                 _ = Task.Run(async () =>
                 {
@@ -45,8 +68,21 @@ public class TcpSocketServer
                     }
                     finally
                     {
-                        client.Close();
-                        ClientDisconnected?.Invoke();
+                        try
+                        {
+                            if (_clientIps.TryGetValue(client, out string addr))
+                            {
+                                Console.WriteLine($"🔴 Client ngắt kết nối: {addr}");
+                                _clientIps.Remove(client);
+                            }
+
+                            ClientDisconnected?.Invoke();
+                            client?.Close();
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"⚠️ Lỗi khi đóng kết nối client: {ex.Message}");
+                        }
                     }
                 });
             }
@@ -61,6 +97,9 @@ public class TcpSocketServer
     {
         try { _cts?.Cancel(); } catch { }
         try { _listener?.Stop(); } catch { }
+
+        IsRunning = false;
+        Console.WriteLine("⏹ Server đã dừng.");
     }
 
     private async Task HandleClientAsync(TcpClient client)
@@ -69,7 +108,7 @@ public class TcpSocketServer
 
         try
         {
-            while (client.Connected) 
+            while (client.Connected)
             {
                 string json = await ReadUntilEofAsync(ns);
                 if (string.IsNullOrWhiteSpace(json))
@@ -85,12 +124,22 @@ public class TcpSocketServer
 
                     switch (action)
                     {
+                        // Đăng nhập
                         case "signin":
                             {
                                 var user = root.GetProperty("user").GetString() ?? "";
                                 var pass = root.GetProperty("pass").GetString() ?? "";
                                 bool ok = _auth.CheckInforSignIn(user, pass);
                                 resp = ok ? ServerResponse.Ok : ServerResponse.Fail;
+
+                                if (ok && client.Client.RemoteEndPoint is IPEndPoint remote)
+                                {
+                                    string ip = remote.Address.ToString();
+                                    _token++;
+
+                                    Console.WriteLine($"👤 User '{user}' đăng nhập từ {ip}");
+                                    UserLoggedIn?.Invoke(user, ip, _token);
+                                }
                                 break;
                             }
 
@@ -105,6 +154,19 @@ public class TcpSocketServer
                                 bool ok = _auth.Register(user, pass, email, name, birthday);
                                 resp = ok ? ServerResponse.Ok : ServerResponse.Fail;
                                 break;
+                            }
+
+                        case "getinfor":
+                            {
+                                var user = root.GetProperty("user").GetString() ?? "";
+                                (string USERNAME, string FULLNAME, string EMAIL, DateTime? BIRTHDAY) = _auth.GetInforSignIn(user);
+
+                                var userInfoResp = new UserInfoResponse(user, FULLNAME, EMAIL, BIRTHDAY);
+                                var jsonResp = JsonSerializer.Serialize(userInfoResp);
+                                var infoBytes = Encoding.UTF8.GetBytes(jsonResp + "<EOF>");
+                                await ns.WriteAsync(infoBytes, 0, infoBytes.Length);
+                                await ns.FlushAsync();
+                                continue;
                             }
 
                         default:
@@ -131,7 +193,11 @@ public class TcpSocketServer
         }
         finally
         {
-            Console.WriteLine($"🔴 Client ngắt kết nối: {client.Client.RemoteEndPoint}");
+            if (_clientIps.TryGetValue(client, out string addr))
+                Console.WriteLine($"🔴 Client đóng kết nối: {addr}");
+            else
+                Console.WriteLine($"🔴 Client đóng kết nối (chưa có IP)");
+
             ns.Close();
             client.Close();
         }
@@ -148,12 +214,12 @@ public class TcpSocketServer
             if (n <= 0) break;
 
             sb.Append(Encoding.UTF8.GetString(buf, 0, n));
-
             var s = sb.ToString();
             int eof = s.IndexOf("<EOF>", StringComparison.Ordinal);
             if (eof >= 0)
                 return s.Substring(0, eof);
         }
+
         return sb.ToString();
     }
 }
@@ -163,3 +229,5 @@ public record ServerResponse(bool ok)
     public static ServerResponse Ok => new(true);
     public static ServerResponse Fail => new(false);
 }
+
+public record UserInfoResponse(string? username, string? fullname, string? email, DateTime? birthday);

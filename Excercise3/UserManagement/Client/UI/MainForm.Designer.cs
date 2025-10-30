@@ -162,6 +162,7 @@
             lblDisplayFullName.Name = "lblDisplayFullName";
             lblDisplayFullName.Size = new Size(340, 20);
             lblDisplayFullName.TabIndex = 5;
+
             // 
             // lblUsername
             // 
