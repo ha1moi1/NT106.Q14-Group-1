@@ -8,7 +8,7 @@
 
 2. Mở Command Prompt/Power Shell, gõ lệnh `ipconfig` rồi copy IPv4 Address của Mạng đang sử dụng:
 
-- Server:
+**Server:**
 
 + Truy cập vào NT106.Q14-Group-1\Excercise3\UserManagement\Server.
 
@@ -18,7 +18,7 @@
 
 + Lưu và đóng File lại.
 
-- Client:
+**Client:**
 
 + Truy cập vào NT106.Q14-Group-1\Excercise3\UserManagement\Client.
 
@@ -30,7 +30,7 @@
 
 3. Mở `UserManagement.sln`.
 
-- Server:
+**Server:**
 
 + Chỉnh StartUp Project là Server
 
@@ -38,7 +38,7 @@
 
 + Chạy chương trình.
 
-- Client:
+**Client:**
 
 + Chỉnh StartUp Project là Client
 
@@ -46,7 +46,7 @@
 
 + Chạy chương trình.
 
-!!! **Lưu ý:** Client và Server phải kết nối chung một Wifi mới có thể chạy được chương trình.
+!!! **Lưu ý:** Client và Server phải kết nối chung một Mạng mới có thể chạy được chương trình.
 ### Các giao diện màn hình ứng dụng
 
 #### Client
