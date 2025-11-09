@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\exercise2.2\\exercise2.2.2\\bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\exercise2.2\\exercise2.2.2\\ui\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:ui\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\exercise2.2\\exercise2.2.2\\ui\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:ui\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\exercise2.2\\exercise2.2.2\\dal\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:dal\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\exercise2.2\\exercise2.2.2\\ui\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:ui\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\exercise2.2\\exercise2.2.2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|d:\\3_hk1-n2\\nt106\\baitap\\nt106.q14-group-1\\exercise2.2\\exercise2.2.2\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588490D0-3213-4741-9533-02F7687AF94E}|Monopoly.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\UI\\SignUp.cs",
+              "RelativeDocumentMoniker": "UI\\SignUp.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\UI\\SignUp.cs",
+              "RelativeToolTip": "UI\\SignUp.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T15:14:04.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUp.cs [Design]",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\UI\\SignUp.cs",
+              "RelativeDocumentMoniker": "UI\\SignUp.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\UI\\SignUp.cs [Design]",
+              "RelativeToolTip": "UI\\SignUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T15:13:55.95Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\BLL\\AuthService.cs",
+              "RelativeDocumentMoniker": "BLL\\AuthService.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\BLL\\AuthService.cs*",
+              "RelativeToolTip": "BLL\\AuthService.cs*",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwDkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T11:23:16.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Models\\Player.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\Models\\Player.cs",
+              "RelativeToolTip": "Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:14:42.123Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-27T14:58:26.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignIn.cs",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\UI\\SignIn.cs",
+              "RelativeDocumentMoniker": "UI\\SignIn.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\UI\\SignIn.cs",
+              "RelativeToolTip": "UI\\SignIn.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAewB8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:21:23.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerRepository.cs",
+              "DocumentMoniker": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\DAL\\PlayerRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\PlayerRepository.cs",
+              "ToolTip": "D:\\3_HK1-N2\\NT106\\BaiTap\\NT106.Q14-Group-1\\Exercise2.2\\Exercise2.2.2\\DAL\\PlayerRepository.cs",
+              "RelativeToolTip": "DAL\\PlayerRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T05:52:20.647Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
